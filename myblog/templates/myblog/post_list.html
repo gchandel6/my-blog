@@ -1,22 +1,95 @@
+{%   load staticfiles   %}
+
 <html>
-    <head>
-        <title>GC's blog</title>
-    </head>
-    <body>
-        <div>
-            <h1><a href="">Django Girls Blog</a></h1>
-        </div>
 
-        <div>
-            <p>published: 14.06.2014, 12:14</p>
-            <h2><a href="">My first post</a></h2>
-            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        </div>
+	<head>
 
-        <div>
-            <p>published: 14.06.2014, 12:14</p>
-            <h2><a href="">My second post</a></h2>
-            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f.</p>
-        </div>
-    </body>
+		<title>		Gentleman Cadet's Blog 	</title>
+	  <link rel="stylesheet" type="text/css" href="{%  static  'css/css2.css'  %}">
+
+
+
+	</head>
+
+
+	<body>
+
+
+	<div id="main1">
+
+		<div id="one">
+
+			<a href="">
+				<div id="div1" class="common">
+					<p id="t1">	GC	</p>
+				</div>
+			</a>
+
+
+			<a href="">
+				<p id="t3">	Join		</p>
+			</a>
+
+			<a href="">
+				<p id="t2">	Enter		</p>
+			</a>
+
+
+		</div>
+
+
+		<div id="two" >
+
+				<p id="p1">
+					A Blog About World.
+				</p>
+				<p id="p1">
+					A World Full Of Optimal Algorithms.
+				</p>
+
+		</div>
+
+		<a href="">
+			<div id="three" class="common">
+
+			<p id="p3">	START	</p>
+
+			</div>
+		</a>
+
+	</div>
+
+
+
+	<div id="main3" class="common">
+
+		<p id="pp2">	List Of All Blogs </p>
+
+
+    {%  for i in posts   %}
+
+      <a href="">
+
+		    <div class="sub1"  >
+
+            <h1 class="newh">  {{   i.title    }}   </h1>
+
+
+		    </div>
+
+      </a>  
+
+    {%  endfor  %}
+
+
+	</div>
+
+
+
+
+
+	</body>
+
+
+
 </html>
