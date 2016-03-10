@@ -169,14 +169,6 @@ a
 	border-color:black;
 }
 
-#pp2
-{
-	margin-top:95px;
-	font-size:28px;
-	color:#4EE2EC;
-	text-align:center;
-	font-family:cursive;
-}
 
 #pp3
 {	font-size:23px;
@@ -192,7 +184,7 @@ a
 	border-radius:5px;
 	width:700px;
 	height:230px;
-	margin-top:70px;
+	margin-top:95px;
 	margin-left:auto;
 	margin-right:auto;
 
@@ -203,9 +195,41 @@ a
 	background-color:White;
 }
 
+#box1
+{
+	background-color:white;
+	margin-top:100px;
+	width:300px;
+	height:100px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:5px;
+	border:2px solid #57E964;
+	color:#57E964;
+
+	-webkit-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
+}
+
+#pp2
+{
+	font-size:28px;
+	float:left;
+	margin-left:42px;
+
+	text-align:center;
+	font-family:cursive;
+}
+
+#box1:hover
+{
+	color:white;
+	background-color:#57E964;;
+}
+
 .newh
 {
-	font-size:23px;
+	font-size:27px;
 
 	margin-top:83px;
 	text-align:center;

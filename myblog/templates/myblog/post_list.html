@@ -44,7 +44,7 @@
 					A Blog About World.
 				</p>
 				<p id="p1">
-					A World Full Of Optimal Algorithms.
+					A World Full Of Beautiful Algorithms.
 				</p>
 
 		</div>
@@ -63,7 +63,11 @@
 
 	<div id="main3" class="common">
 
-		<p id="pp2">	List Of All Blogs </p>
+		<div id="box1">
+
+			<p id="pp2">	List Of All Blogs </p>
+
+		</div>
 
 
     {%  for i in posts   %}
@@ -72,12 +76,12 @@
 
 		    <div class="sub1"  >
 
-            <h1 class="newh">  {{   i.title    }}   </h1>
+            <p class="newh">  {{   i.title    }}   </p>
 
 
 		    </div>
 
-      </a>  
+      </a>
 
     {%  endfor  %}
 
