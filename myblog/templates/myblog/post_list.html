@@ -26,13 +26,6 @@
 			</a>
 
 
-			<a href="">
-				<p id="t3">	Join		</p>
-			</a>
-
-			<a href="">
-				<p id="t2">	Enter		</p>
-			</a>
 
 
 		</div>
@@ -52,7 +45,7 @@
 		<a href="">
 			<div id="three" class="common">
 
-			<p id="p3">	START	</p>
+			<p id="p3">	ENTER	</p>
 
 			</div>
 		</a>
@@ -65,19 +58,18 @@
 
 		<div id="box1">
 
-			<p id="pp2">	List Of All Blogs </p>
+			<p id="pp2">	List Of All Posts </p>
 
 		</div>
 
 
     {%  for i in posts   %}
 
-      <a href="">
+      <a href="{% url 'post_page'	post_id=i.pk %}">
 
 		    <div class="sub1"  >
 
             <p class="newh">  {{   i.title    }}   </p>
-
 
 		    </div>
 
