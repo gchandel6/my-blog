@@ -21,7 +21,7 @@ a
 {
 	color:white;
 	font-size:40px;
-	font-family:fantasy;
+	font-family:verdana;
 	margin-top:16px;
 	margin-left:36px;
 	float:left;
@@ -64,7 +64,7 @@ a
 	font-size:26px;
 	float:right;
 	margin-right:39px;
-	font-family:cursive;
+	font-family:verdana;
 	margin-top:53px;
 
 	-webkit-transition: all 0.7s ease-in;
@@ -86,7 +86,7 @@ a
 	font-size:22px;
 	float:right;
 	margin-right:69px;
-	font-family:cursive;
+	font-family:verdana;
 	margin-top:53px;
 
 	-webkit-transition: all 0.7s ease-in;
@@ -108,7 +108,7 @@ a
 #p1
 {
 	color:white;
-	font-family:cursive;
+	font-family:verdana;
 	font-size:23px
 
 }
@@ -151,7 +151,7 @@ a
 
 #pp1
 {
-	font-family:cursive;
+	font-family:verdana;
 	font-size:30px;
 /*	color:#493D26;		*/
 	text-align:center;
@@ -170,7 +170,7 @@ a
 	margin-top:30px;
 /*	height:1700px;   */
 	width:1336px;
-	border-color:brown;
+	border-color:white;
 	background-color:white;
 }
 
@@ -178,7 +178,7 @@ a
 #pp3
 {	font-size:23px;
 	text-align:center;
-	font-family:cursive;
+	font-family:verdana;
 }
 /*		#57E964			*/
 
@@ -205,7 +205,7 @@ a
 	margin-left:56px;
 
 	text-align:center;
-	font-family:cursive;
+	font-family:verdana;
 }
 
 #box1:hover
@@ -217,7 +217,7 @@ a
 .sub1
 {
 
-	border:2px solid #7D0541;
+	border:2px solid #6F4E37;
 	border-radius:5px;
 	width:700px;
 	height:120px;
@@ -228,7 +228,7 @@ a
 	-webkit-transition: all 0.4s ease-in;
 	transition: all 0.4s ease-in;
 
-	color:#7D0541;
+	color:#6F4E37;
 	background-color:White;
 }
 
@@ -238,11 +238,49 @@ a
 
 	margin-top:42px;
 	text-align:center;
-	font-family:cursive;
+	font-family:verdana;
 }
 
 .sub1:hover
 {
-	background-color:#7D0541;
+	background-color:#6F4E37;
 	color:white;
+}
+
+#main4
+{
+	float:left;
+	background-color:#6AFB92;
+	margin-top:100px;
+	width:300px;
+	height:80px;
+	margin-left:520px;
+	margin-right:auto;
+	border-radius:5px;
+	border:2px solid #6AFB92;
+	color:white;
+
+	-webkit-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
+}
+
+#main4:hover
+{
+	color:#6AFB92;
+	background-color:white;
+}
+
+#add
+{
+	font-size:24px;
+	text-align:center;
+	font-family:verdana;
+}
+
+#last
+{
+	width:100%;
+	height:50px;
+	background-color:white;
+	float:left;
 }

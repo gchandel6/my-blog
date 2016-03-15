@@ -1,0 +1,51 @@
+{% load staticfiles %}
+
+
+<html>
+
+  <head>
+
+    <title>   {{    post.title    }}    -- Gentleman Cadet's Blog   </title>
+
+    <link rel="stylesheet" type="text/css" href="{%  static  'css/css3.css'  %}">
+
+  </head>
+
+
+  <body>
+
+
+    <a href="{% url 'post_list'  %}">
+
+      <div id="logo">
+        <p id="p1">  GC    </p>
+      </div>
+
+    </a>
+
+
+    <div id="main1">
+
+        <p id="t1">   {{    post.title   }}     </p>
+
+        <p id="t2">   By : {{    post.author    }}    </p>
+
+        <p id="t3">   {{    post.published_date }}    </p>
+
+    </div>
+
+
+    <div id="main2">
+
+        <p id="tex">  {{   post.text     }}     </p>
+
+
+    </div>
+
+
+
+  </body>
+
+
+
+</html>

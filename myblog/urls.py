@@ -13,4 +13,10 @@ urlpatterns = [
 
     url(r'^post/(?P<post_id>\d+)/$' , views.post_page, name = 'post_page' ),
 
+
+#   URL for Adding a New Post
+
+#    url(r'^post/new/$' , views.add_post , name='add_post'),
+
+#   {%		url 'add_post'    %}
 ]

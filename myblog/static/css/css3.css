@@ -1,0 +1,91 @@
+
+#logo
+{
+  width:196px;
+	height:74px;
+  background-color:white;
+
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  color:white;
+  border-radius:5px;
+	border:2px solid #6AFB92;
+
+  color:#6AFB92;
+
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:29px;
+}
+
+#p1
+{
+	font-size:40px;
+	font-family:cursive;
+	margin-top:18px;
+	margin-left:64px;
+	float:left;
+	-webkit-transition: all 0.7s ease-in;
+	transition: all 0.7s ease-in;
+}
+
+#logo:hover
+{
+  color:white;
+	background-color:#6AFB92;
+}
+
+
+#main1
+{
+  width:100%;
+  height:300px;
+  background-color:#B5EAAA;
+  float:left;
+  border-radius:5px;
+  margin-top:6px;
+}
+
+#t1
+{
+  text-align:center;
+  color:white;
+  font-size:42px;
+  margin-top:100px;
+  font-family:fantasy;
+}
+
+#t2
+{
+  font-family:fantasy;
+  color:white;
+  font-size:24px;
+  margin-top:100px;
+  margin-left:13px;
+}
+
+#t3
+{
+  font-family:fantasy;
+  color:white;
+  font-size:24px;
+  margin-top:-51px;
+  margin-left:1000px;
+}
+
+#main2
+{
+  width:87%;
+  float:left;
+  margin-left:74px;
+  margin-top:70px;
+  border:2px solid white;
+  border-radius:5px;
+}
+
+#tex
+{
+  font-size:18px;
+  color:#34282C;
+  font-family:fantasy;;
+}
